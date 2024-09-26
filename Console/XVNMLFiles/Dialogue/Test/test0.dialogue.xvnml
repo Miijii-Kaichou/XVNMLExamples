@@ -1,0 +1,11 @@
+<source name::"Test0.Dialogue.XVNML">
+	<dialogue name::"MainTest">
+	    @ {
+			$_defaultTextSpeed
+			|$_showChapter1Title
+		}<
+		@ Harvest Time!<
+		@ It's the greatest time of the year!<
+		@ And I don't know what else to say!<<
+	</dialogue>
+</source>

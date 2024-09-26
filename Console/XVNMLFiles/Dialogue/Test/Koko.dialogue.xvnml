@@ -1,0 +1,48 @@
+﻿<source name::"Koko.Dialogue.XVNML">
+	<runtimeReferenceTable scope::"Koko.Dialogue.XVNML" #mutable>
+		<runtimeVariable name::"_my_global_number">
+			<arg value::0/>
+		</runtimeVariable>
+		<runtimeVariable name::"_my_global_wait_time">
+			1000
+		</runtimeVariable>
+		<runtimeVariable name::"_default_text_speed" value::100/>
+	</runtimeReferenceTable>
+	<dialogue name::$_targetDialogue>
+		@ {
+			declare::("_user_input", string)|
+			initialize::("_my_number", int, -1363)|
+			initialize::("_allow_line_index_print", bool, true)|
+			initialize::("_wait_time", uint, 1000)|
+			set_text_speed::100|
+			set::("_user_input", "Inugami Koko")|
+			pass
+		}<
+
+		["Main"]
+		? Perform which test?>>
+		(
+			("Test")>		@ {$_runTest|pass}<<
+			("Intro")>		@ {$_runIntro|pass}<<
+			("RRT_Test")>	@ {$_runRRTTest|pass}<<
+			("INSD_Test")>	@ {$_runINSDTest|pass}<<
+			("Return to Main Menu")> @ {pass|end}<<
+		)		
+
+		["Test"]
+		@ {lindex::$_allow_line_index_print}<
+		@ {$_main|pass}<
+
+		["Intro"]
+		@ {$_sayHi}<
+		@ {$_main|pass}<
+
+		["RRT_Test"]
+		@ My name is {insd::$_user_input|set::("_user_input", "Dorothy")}.<
+		@ Now my name is {insd::";_user_input;"}, your Guardian... {delay::500|ins::"DOG!"}<
+		@ {$_main|pass}<
+		
+		["INSD_Test"]
+		@ Very pleased to meet you!{pause} My number is {insd::$_my_number}!{delay::$_wait_time|$_main|pass}<
+	</dialogue>
+</source>

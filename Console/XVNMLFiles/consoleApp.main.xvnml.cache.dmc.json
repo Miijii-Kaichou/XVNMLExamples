@@ -1,0 +1,2174 @@
+{
+  "$id": "1",
+  "$type": "XVNML.Core.Macros.InternalMacroCache, XVNML",
+  "_data": [
+    {
+      "$id": "2",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_awkwardPause",
+      "macroParent": "_test1",
+      "symbol": null,
+      "argData": [
+        {
+          "$id": "3",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [
+        {
+          "$id": "4",
+          "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+          "arg": 250,
+          "symbol": "delay",
+          "type": null,
+          "_childMacros": [],
+          "_macroArguments": [],
+          "_tagName": "macro",
+          "elements": null,
+          "parentTag": {
+            "$id": "5",
+            "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+            "arg": null,
+            "symbol": null,
+            "type": null,
+            "_macroArguments": [],
+            "_tagName": "macro",
+            "elements": [
+              {
+                "$ref": "4"
+              },
+              {
+                "$id": "6",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": ".",
+                "symbol": "insert",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "7",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 1,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "8",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": 250,
+                "symbol": "delay",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "9",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 2,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "10",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": ".",
+                "symbol": "insert",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "11",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 3,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "12",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": 250,
+                "symbol": "delay",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "13",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 4,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "14",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": ".",
+                "symbol": "insert",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "15",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 5,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "16",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": 250,
+                "symbol": "delay",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "17",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 6,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "18",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": ".",
+                "symbol": "insert",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "19",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 7,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "20",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": 250,
+                "symbol": "delay",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "5"
+                },
+                "value": {
+                  "$id": "21",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 8,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              }
+            ],
+            "parentTag": {
+              "$id": "22",
+              "$type": "XVNML.Utilities.Tags.MacroCache, XVNML",
+              "_macros": [
+                {
+                  "$ref": "5"
+                }
+              ],
+              "_rootScope": "Test1.Dialogue.XVNML",
+              "_tagName": "macroCache",
+              "elements": [
+                {
+                  "$ref": "5"
+                }
+              ],
+              "parentTag": {
+                "$id": "23",
+                "$type": "XVNML.Utilities.Tags.Source, XVNML",
+                "_tagName": "source",
+                "elements": [
+                  {
+                    "$ref": "22"
+                  }
+                ],
+                "parentTag": null,
+                "value": {
+                  "$id": "24",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": false,
+                "tagTypeName": "Source",
+                "tagName": "Test1.Macro.Cache.XVNML",
+                "tagID": null,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "name",
+                  "altNames",
+                  "id",
+                  "src",
+                  "pathMode"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test1.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              "value": {
+                "$id": "25",
+                "$type": "System.Object, System.Private.CoreLib"
+              },
+              "isSelfClosing": false,
+              "allowedParameters": [
+                "rootScope"
+              ],
+              "allowedFlags": [
+                "pass"
+              ],
+              "macros": [
+                {
+                  "$ref": "5"
+                }
+              ],
+              "pathMode": 0,
+              "source": null,
+              "tagTypeName": "MacroCache",
+              "tagName": "_test1",
+              "tagID": null,
+              "alternativeTagNames": null,
+              "isResolved": true,
+              "rootScope": "Test1.Macro.Cache.XVNML",
+              "parserRef": {
+                "$type": "XVNML.Core.Parser.TagParser, XVNML"
+              }
+            },
+            "value": {
+              "$id": "26",
+              "$type": "System.Object, System.Private.CoreLib"
+            },
+            "isSelfClosing": false,
+            "macroArguments": [],
+            "tagTypeName": "Macro",
+            "tagName": "_awkwardPause",
+            "tagID": 0,
+            "alternativeTagNames": null,
+            "allowedParameters": [
+              "arg",
+              "symbol"
+            ],
+            "allowedFlags": [
+              "override"
+            ],
+            "isResolved": true,
+            "rootScope": "Test1.Macro.Cache.XVNML",
+            "parserRef": {
+              "$type": "XVNML.Core.Parser.TagParser, XVNML"
+            }
+          },
+          "value": {
+            "$id": "27",
+            "$type": "System.Object, System.Private.CoreLib"
+          },
+          "isSelfClosing": true,
+          "childMacros": [],
+          "macroArguments": [],
+          "tagTypeName": "Macro",
+          "tagName": "macro",
+          "tagID": 0,
+          "alternativeTagNames": null,
+          "allowedParameters": [
+            "arg",
+            "symbol"
+          ],
+          "allowedFlags": [
+            "override"
+          ],
+          "isResolved": true,
+          "rootScope": "Test1.Macro.Cache.XVNML",
+          "parserRef": {
+            "$type": "XVNML.Core.Parser.TagParser, XVNML"
+          }
+        },
+        {
+          "$ref": "6"
+        },
+        {
+          "$ref": "8"
+        },
+        {
+          "$ref": "10"
+        },
+        {
+          "$ref": "12"
+        },
+        {
+          "$ref": "14"
+        },
+        {
+          "$ref": "16"
+        },
+        {
+          "$ref": "18"
+        },
+        {
+          "$ref": "20"
+        }
+      ],
+      "rootScope": "Test1.Dialogue.XVNML"
+    },
+    {
+      "$id": "28",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_defaultTextSpeed",
+      "macroParent": "_main",
+      "symbol": null,
+      "argData": [
+        {
+          "$id": "29",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [
+        {
+          "$id": "30",
+          "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+          "arg": 100,
+          "symbol": "set_text_speed",
+          "type": null,
+          "_childMacros": [],
+          "_macroArguments": [],
+          "_tagName": "macro",
+          "elements": null,
+          "parentTag": {
+            "$id": "31",
+            "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+            "arg": null,
+            "symbol": null,
+            "type": null,
+            "_macroArguments": [],
+            "_tagName": "macro",
+            "elements": [
+              {
+                "$ref": "30"
+              },
+              {
+                "$id": "32",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": null,
+                "symbol": "pass",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "31"
+                },
+                "value": {
+                  "$id": "33",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 1,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Main.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              }
+            ],
+            "parentTag": {
+              "$id": "34",
+              "$type": "XVNML.Utilities.Tags.MacroCache, XVNML",
+              "_macros": [
+                {
+                  "$id": "35",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": null,
+                  "symbol": null,
+                  "type": null,
+                  "_childMacros": [
+                    {
+                      "$id": "36",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": 500,
+                      "symbol": "delay",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "37",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 0,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "38",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": ".",
+                      "symbol": "insert",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "39",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 1,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "40",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": 500,
+                      "symbol": "delay",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "41",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 2,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "42",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": ".",
+                      "symbol": "insert",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "43",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 3,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "44",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": 500,
+                      "symbol": "delay",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "45",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 4,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "46",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": ".",
+                      "symbol": "insert",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "35"
+                      },
+                      "value": {
+                        "$id": "47",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 5,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    }
+                  ],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": [
+                    {
+                      "$ref": "36"
+                    },
+                    {
+                      "$ref": "38"
+                    },
+                    {
+                      "$ref": "40"
+                    },
+                    {
+                      "$ref": "42"
+                    },
+                    {
+                      "$ref": "44"
+                    },
+                    {
+                      "$ref": "46"
+                    }
+                  ],
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "48",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": false,
+                  "childMacros": [
+                    {
+                      "$ref": "36"
+                    },
+                    {
+                      "$ref": "38"
+                    },
+                    {
+                      "$ref": "40"
+                    },
+                    {
+                      "$ref": "42"
+                    },
+                    {
+                      "$ref": "44"
+                    },
+                    {
+                      "$ref": "46"
+                    }
+                  ],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_think",
+                  "tagID": 0,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$ref": "31"
+                },
+                {
+                  "$id": "49",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "Hi",
+                  "symbol": "insert_directly",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "50",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_sayHi",
+                  "tagID": 2,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "51",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": null,
+                  "symbol": null,
+                  "type": null,
+                  "_childMacros": [
+                    {
+                      "$id": "52",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": null,
+                      "symbol": "pause",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "51"
+                      },
+                      "value": {
+                        "$id": "53",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 0,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    },
+                    {
+                      "$id": "54",
+                      "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                      "arg": null,
+                      "symbol": "clr",
+                      "type": null,
+                      "_childMacros": [],
+                      "_macroArguments": [],
+                      "_tagName": "macro",
+                      "elements": null,
+                      "parentTag": {
+                        "$ref": "51"
+                      },
+                      "value": {
+                        "$id": "55",
+                        "$type": "System.Object, System.Private.CoreLib"
+                      },
+                      "isSelfClosing": true,
+                      "childMacros": [],
+                      "macroArguments": [],
+                      "tagTypeName": "Macro",
+                      "tagName": "macro",
+                      "tagID": 1,
+                      "alternativeTagNames": null,
+                      "allowedParameters": [
+                        "arg",
+                        "symbol"
+                      ],
+                      "allowedFlags": [
+                        "override"
+                      ],
+                      "isResolved": true,
+                      "rootScope": "Main.Macro.Cache.XVNML",
+                      "parserRef": {
+                        "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                      }
+                    }
+                  ],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": [
+                    {
+                      "$ref": "52"
+                    },
+                    {
+                      "$ref": "54"
+                    }
+                  ],
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "56",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": false,
+                  "childMacros": [
+                    {
+                      "$ref": "52"
+                    },
+                    {
+                      "$ref": "54"
+                    }
+                  ],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_pc",
+                  "tagID": 3,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "57",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "Main",
+                  "symbol": "jump_to",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "58",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_main",
+                  "tagID": 4,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "59",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "Test",
+                  "symbol": "jump_to",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "60",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_runTest",
+                  "tagID": 5,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "61",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "Intro",
+                  "symbol": "jump_to",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "62",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_runIntro",
+                  "tagID": 6,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "63",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "RRT_Test",
+                  "symbol": "jump_to",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "64",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_runRRTTest",
+                  "tagID": 7,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                },
+                {
+                  "$id": "65",
+                  "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                  "arg": "INSD_Test",
+                  "symbol": "jump_to",
+                  "type": null,
+                  "_childMacros": [],
+                  "_macroArguments": [],
+                  "_tagName": "macro",
+                  "elements": null,
+                  "parentTag": {
+                    "$ref": "34"
+                  },
+                  "value": {
+                    "$id": "66",
+                    "$type": "System.Object, System.Private.CoreLib"
+                  },
+                  "isSelfClosing": true,
+                  "childMacros": [],
+                  "macroArguments": [],
+                  "tagTypeName": "Macro",
+                  "tagName": "_runINSDTest",
+                  "tagID": 8,
+                  "alternativeTagNames": null,
+                  "allowedParameters": [
+                    "arg",
+                    "symbol"
+                  ],
+                  "allowedFlags": [
+                    "override"
+                  ],
+                  "isResolved": true,
+                  "rootScope": "Main.Macro.Cache.XVNML",
+                  "parserRef": {
+                    "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                  }
+                }
+              ],
+              "_rootScope": null,
+              "_tagName": "macroCache",
+              "elements": [
+                {
+                  "$ref": "35"
+                },
+                {
+                  "$ref": "31"
+                },
+                {
+                  "$ref": "49"
+                },
+                {
+                  "$ref": "51"
+                },
+                {
+                  "$ref": "57"
+                },
+                {
+                  "$ref": "59"
+                },
+                {
+                  "$ref": "61"
+                },
+                {
+                  "$ref": "63"
+                },
+                {
+                  "$ref": "65"
+                }
+              ],
+              "parentTag": {
+                "$id": "67",
+                "$type": "XVNML.Utilities.Tags.Source, XVNML",
+                "_tagName": "source",
+                "elements": [
+                  {
+                    "$ref": "34"
+                  }
+                ],
+                "parentTag": null,
+                "value": {
+                  "$id": "68",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": false,
+                "tagTypeName": "Source",
+                "tagName": "Main.Macro.Cache.XVNML",
+                "tagID": null,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "name",
+                  "altNames",
+                  "id",
+                  "src",
+                  "pathMode"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Main.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              "value": {
+                "$id": "69",
+                "$type": "System.Object, System.Private.CoreLib"
+              },
+              "isSelfClosing": false,
+              "allowedParameters": [
+                "rootScope"
+              ],
+              "allowedFlags": [
+                "pass"
+              ],
+              "macros": [
+                {
+                  "$ref": "35"
+                },
+                {
+                  "$ref": "31"
+                },
+                {
+                  "$ref": "49"
+                },
+                {
+                  "$ref": "51"
+                },
+                {
+                  "$ref": "57"
+                },
+                {
+                  "$ref": "59"
+                },
+                {
+                  "$ref": "61"
+                },
+                {
+                  "$ref": "63"
+                },
+                {
+                  "$ref": "65"
+                }
+              ],
+              "pathMode": 0,
+              "source": null,
+              "tagTypeName": "MacroCache",
+              "tagName": "_main",
+              "tagID": null,
+              "alternativeTagNames": null,
+              "isResolved": true,
+              "rootScope": "Main.Macro.Cache.XVNML",
+              "parserRef": {
+                "$type": "XVNML.Core.Parser.TagParser, XVNML"
+              }
+            },
+            "value": {
+              "$id": "70",
+              "$type": "System.Object, System.Private.CoreLib"
+            },
+            "isSelfClosing": false,
+            "macroArguments": [],
+            "tagTypeName": "Macro",
+            "tagName": "_defaultTextSpeed",
+            "tagID": 1,
+            "alternativeTagNames": null,
+            "allowedParameters": [
+              "arg",
+              "symbol"
+            ],
+            "allowedFlags": [
+              "override"
+            ],
+            "isResolved": true,
+            "rootScope": "Main.Macro.Cache.XVNML",
+            "parserRef": {
+              "$type": "XVNML.Core.Parser.TagParser, XVNML"
+            }
+          },
+          "value": {
+            "$id": "71",
+            "$type": "System.Object, System.Private.CoreLib"
+          },
+          "isSelfClosing": true,
+          "childMacros": [],
+          "macroArguments": [],
+          "tagTypeName": "Macro",
+          "tagName": "macro",
+          "tagID": 0,
+          "alternativeTagNames": null,
+          "allowedParameters": [
+            "arg",
+            "symbol"
+          ],
+          "allowedFlags": [
+            "override"
+          ],
+          "isResolved": true,
+          "rootScope": "Main.Macro.Cache.XVNML",
+          "parserRef": {
+            "$type": "XVNML.Core.Parser.TagParser, XVNML"
+          }
+        },
+        {
+          "$ref": "32"
+        }
+      ],
+      "rootScope": null
+    },
+    {
+      "$id": "72",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_main",
+      "macroParent": "_main",
+      "symbol": "jump_to",
+      "argData": [
+        {
+          "$id": "73",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "Main",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "74",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_pc",
+      "macroParent": "_main",
+      "symbol": null,
+      "argData": [
+        {
+          "$id": "75",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [
+        {
+          "$ref": "52"
+        },
+        {
+          "$ref": "54"
+        }
+      ],
+      "rootScope": null
+    },
+    {
+      "$id": "76",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_runINSDTest",
+      "macroParent": "_main",
+      "symbol": "jump_to",
+      "argData": [
+        {
+          "$id": "77",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "INSD_Test",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "78",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_runIntro",
+      "macroParent": "_main",
+      "symbol": "jump_to",
+      "argData": [
+        {
+          "$id": "79",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "Intro",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "80",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_runRRTTest",
+      "macroParent": "_main",
+      "symbol": "jump_to",
+      "argData": [
+        {
+          "$id": "81",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "RRT_Test",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "82",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_runTest",
+      "macroParent": "_main",
+      "symbol": "jump_to",
+      "argData": [
+        {
+          "$id": "83",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "Test",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "84",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_sayHi",
+      "macroParent": "_main",
+      "symbol": "insert_directly",
+      "argData": [
+        {
+          "$id": "85",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "Hi",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "86",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_showChapter1Title",
+      "macroParent": "_test0",
+      "symbol": null,
+      "argData": [
+        {
+          "$id": "87",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [
+        {
+          "$id": "88",
+          "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+          "arg": "title",
+          "symbol": "style",
+          "type": null,
+          "_childMacros": [],
+          "_macroArguments": [],
+          "_tagName": "macro",
+          "elements": null,
+          "parentTag": {
+            "$id": "89",
+            "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+            "arg": null,
+            "symbol": null,
+            "type": null,
+            "_macroArguments": [],
+            "_tagName": "macro",
+            "elements": [
+              {
+                "$ref": "88"
+              },
+              {
+                "$id": "90",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": "Chapter 1: New Beginnings",
+                "symbol": "insert",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "89"
+                },
+                "value": {
+                  "$id": "91",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 1,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test0.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              {
+                "$id": "92",
+                "$type": "XVNML.Utilities.Tags.Macro, XVNML",
+                "arg": 3000,
+                "symbol": "delay",
+                "type": null,
+                "_childMacros": [],
+                "_macroArguments": [],
+                "_tagName": "macro",
+                "elements": null,
+                "parentTag": {
+                  "$ref": "89"
+                },
+                "value": {
+                  "$id": "93",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": true,
+                "childMacros": [],
+                "macroArguments": [],
+                "tagTypeName": "Macro",
+                "tagName": "macro",
+                "tagID": 2,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "arg",
+                  "symbol"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test0.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              }
+            ],
+            "parentTag": {
+              "$id": "94",
+              "$type": "XVNML.Utilities.Tags.MacroCache, XVNML",
+              "_macros": [
+                {
+                  "$ref": "89"
+                }
+              ],
+              "_rootScope": "Test0.Dialogue.XVNML",
+              "_tagName": "macroCache",
+              "elements": [
+                {
+                  "$ref": "89"
+                }
+              ],
+              "parentTag": {
+                "$id": "95",
+                "$type": "XVNML.Utilities.Tags.Source, XVNML",
+                "_tagName": "source",
+                "elements": [
+                  {
+                    "$ref": "94"
+                  }
+                ],
+                "parentTag": null,
+                "value": {
+                  "$id": "96",
+                  "$type": "System.Object, System.Private.CoreLib"
+                },
+                "isSelfClosing": false,
+                "tagTypeName": "Source",
+                "tagName": "Test0.Macro.Cache.XVNML",
+                "tagID": null,
+                "alternativeTagNames": null,
+                "allowedParameters": [
+                  "name",
+                  "altNames",
+                  "id",
+                  "src",
+                  "pathMode"
+                ],
+                "allowedFlags": [
+                  "override"
+                ],
+                "isResolved": true,
+                "rootScope": "Test0.Macro.Cache.XVNML",
+                "parserRef": {
+                  "$type": "XVNML.Core.Parser.TagParser, XVNML"
+                }
+              },
+              "value": {
+                "$id": "97",
+                "$type": "System.Object, System.Private.CoreLib"
+              },
+              "isSelfClosing": false,
+              "allowedParameters": [
+                "rootScope"
+              ],
+              "allowedFlags": [
+                "pass"
+              ],
+              "macros": [
+                {
+                  "$ref": "89"
+                }
+              ],
+              "pathMode": 0,
+              "source": null,
+              "tagTypeName": "MacroCache",
+              "tagName": "_test0",
+              "tagID": null,
+              "alternativeTagNames": null,
+              "isResolved": true,
+              "rootScope": "Test0.Macro.Cache.XVNML",
+              "parserRef": {
+                "$type": "XVNML.Core.Parser.TagParser, XVNML"
+              }
+            },
+            "value": {
+              "$id": "98",
+              "$type": "System.Object, System.Private.CoreLib"
+            },
+            "isSelfClosing": false,
+            "macroArguments": [],
+            "tagTypeName": "Macro",
+            "tagName": "_showChapter1Title",
+            "tagID": 0,
+            "alternativeTagNames": null,
+            "allowedParameters": [
+              "arg",
+              "symbol"
+            ],
+            "allowedFlags": [
+              "override"
+            ],
+            "isResolved": true,
+            "rootScope": "Test0.Macro.Cache.XVNML",
+            "parserRef": {
+              "$type": "XVNML.Core.Parser.TagParser, XVNML"
+            }
+          },
+          "value": {
+            "$id": "99",
+            "$type": "System.Object, System.Private.CoreLib"
+          },
+          "isSelfClosing": true,
+          "childMacros": [],
+          "macroArguments": [],
+          "tagTypeName": "Macro",
+          "tagName": "macro",
+          "tagID": 0,
+          "alternativeTagNames": null,
+          "allowedParameters": [
+            "arg",
+            "symbol"
+          ],
+          "allowedFlags": [
+            "override"
+          ],
+          "isResolved": true,
+          "rootScope": "Test0.Macro.Cache.XVNML",
+          "parserRef": {
+            "$type": "XVNML.Core.Parser.TagParser, XVNML"
+          }
+        },
+        {
+          "$ref": "90"
+        },
+        {
+          "$ref": "92"
+        }
+      ],
+      "rootScope": "Test0.Dialogue.XVNML"
+    },
+    {
+      "$id": "100",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "_think",
+      "macroParent": "_main",
+      "symbol": null,
+      "argData": [
+        {
+          "$id": "101",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [
+        {
+          "$ref": "36"
+        },
+        {
+          "$ref": "38"
+        },
+        {
+          "$ref": "40"
+        },
+        {
+          "$ref": "42"
+        },
+        {
+          "$ref": "44"
+        },
+        {
+          "$ref": "46"
+        }
+      ],
+      "rootScope": null
+    },
+    {
+      "$id": "102",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro",
+      "macroParent": "_awkwardPause",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "103",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 250,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "104",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro",
+      "macroParent": "_defaultTextSpeed",
+      "symbol": "set_text_speed",
+      "argData": [
+        {
+          "$id": "105",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 100,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "106",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro",
+      "macroParent": "_pc",
+      "symbol": "pause",
+      "argData": [
+        {
+          "$id": "107",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "108",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro",
+      "macroParent": "_showChapter1Title",
+      "symbol": "style",
+      "argData": [
+        {
+          "$id": "109",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "title",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "110",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro",
+      "macroParent": "_think",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "111",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 500,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "112",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(0)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "113",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "114",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(0)[unnamed]",
+      "macroParent": "_defaultTextSpeed",
+      "symbol": "pass",
+      "argData": [
+        {
+          "$id": "115",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "116",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(0)[unnamed]",
+      "macroParent": "_pc",
+      "symbol": "clr",
+      "argData": [
+        {
+          "$id": "117",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": null,
+          "type": null
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "118",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(0)[unnamed]",
+      "macroParent": "_showChapter1Title",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "119",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": "Chapter 1: New Beginnings",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "120",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(0)[unnamed]",
+      "macroParent": "_think",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "121",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "122",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(1)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "123",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 250,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "124",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(1)[unnamed]",
+      "macroParent": "_showChapter1Title",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "125",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 3000,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "126",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(1)[unnamed]",
+      "macroParent": "_think",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "127",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 500,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "128",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(2)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "129",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "130",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(2)[unnamed]",
+      "macroParent": "_think",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "131",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "132",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(3)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "133",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 250,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "134",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(3)[unnamed]",
+      "macroParent": "_think",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "135",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 500,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "136",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(4)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "137",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "138",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(4)[unnamed]",
+      "macroParent": "_think",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "139",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "140",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(5)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "141",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 250,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "142",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(6)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "insert",
+      "argData": [
+        {
+          "$id": "143",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": ".",
+          "type": "System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    },
+    {
+      "$id": "144",
+      "$type": "XVNML.Core.Macros.CachedMarcoData, XVNML",
+      "macroName": "macro(7)[unnamed]",
+      "macroParent": "_awkwardPause",
+      "symbol": "delay",
+      "argData": [
+        {
+          "$id": "145",
+          "$type": "XVNML.Core.Macros.ArgData, XVNML",
+          "arg": 250,
+          "type": "System.UInt32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ],
+      "children": [],
+      "rootScope": null
+    }
+  ]
+}

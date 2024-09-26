@@ -1,0 +1,9 @@
+<source name::"Test0.Macro.Cache.XVNML">
+    <macroCache name::"_test0" rootScope::"Test0.Dialogue.XVNML">
+		<macro name::"_showChapter1Title">
+            <macro symbol::"style" arg::"title"/>
+            <macro symbol::"insert" arg::"Chapter 1: New Beginnings"/>
+            <macro symbol::"delay" arg::3000/>
+        </macro>
+    </macroCache>
+</source>

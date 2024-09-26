@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "XVNMLConsoleAppSample/1.0.0": {
+        "dependencies": {
+          "XVNML": "1.0.2.14"
+        },
+        "runtime": {
+          "XVNMLConsoleAppSample.dll": {}
+        }
+      },
+      "XVNML/1.0.2.14": {
+        "runtime": {
+          "XVNML.dll": {
+            "assemblyVersion": "1.0.2.14",
+            "fileVersion": "1.0.2.14"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XVNMLConsoleAppSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XVNML/1.0.2.14": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

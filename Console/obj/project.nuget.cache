@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HFKFpEOkYScXAMS484z/wsZBIUTx0r9a5f075dfi1rGhcAHokl7I9SDdzFBZw894ICry8rxWdiR1ImIpFxvk6w==",
+  "success": true,
+  "projectFilePath": "E:\\Documents\\Repositories\\XVNML\\ConsoleExample\\XVNMLConsoleAppSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tclte\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

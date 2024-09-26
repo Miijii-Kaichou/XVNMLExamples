@@ -1,0 +1,16 @@
+﻿<source name::"Test1.Macro.Cache.XVNML">
+    <macroCache name::"_test1" rootScope::"Test1.Dialogue.XVNML">
+        $> Chiyo's Dad Pauses a bit...
+        <macro name::"_awkwardPause">
+            <macro arg::250 symbol::"delay"/>
+            <macro arg::"." symbol::"insert"/>
+            <macro arg::250 symbol::"delay"/>
+            <macro arg::"." symbol::"insert"/>
+            <macro arg::250 symbol::"delay"/>
+            <macro arg::"." symbol::"insert"/>
+            <macro arg::250 symbol::"delay"/>
+            <macro arg::"." symbol::"insert"/>
+            <macro arg::250 symbol::"delay"/>
+        </macro>
+    </macroCache>
+</source>
