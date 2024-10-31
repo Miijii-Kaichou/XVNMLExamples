@@ -1,23 +1,6 @@
 ﻿<source name::"Koko.Dialogue.XVNML">
-	<runtimeReferenceTable scope::"Koko.Dialogue.XVNML" #mutable>
-		<runtimeVariable name::"_my_global_number">
-			<arg value::0/>
-		</runtimeVariable>
-		<runtimeVariable name::"_my_global_wait_time">
-			1000
-		</runtimeVariable>
-		<runtimeVariable name::"_default_text_speed" value::100/>
-	</runtimeReferenceTable>
-	<dialogue name::$_targetDialogue>
-		@ {
-			declare::("_user_input", string)|
-			initialize::("_my_number", int, -1363)|
-			initialize::("_allow_line_index_print", bool, true)|
-			initialize::("_wait_time", uint, 1000)|
-			set_text_speed::100|
-			set::("_user_input", "Inugami Koko")|
-			pass
-		}<
+	<dialogue name::"KokoDialogue">
+		@ {$_start}<
 
 		["Main"]
 		? Perform which test?>>

@@ -6,7 +6,7 @@ using XVNML.Core.Dialogue;
 using XVNML.Utilities.Dialogue;
 using XVNML.Utilities.Tags;
 using XVNML.Utilities;
-using XVNML.Utilities.Diagnostics;
+
 using XVNML.Core.Native;
 
 static partial class Program
@@ -86,15 +86,13 @@ static partial class Program
             sb.Clear();
         }
 
-        var selectedDialogue = Console.ReadLine();
-
-        RunDialogue(selectedDialogue!);
+        RunDialogue(Console.ReadLine());
     }
 
-    private static void RunDialogue(string selectedDialogue)
+    private static void RunDialogue(string? selectedDialogue)
     {
         var rule = MyRegex();
-        ValidateRule(selectedDialogue, rule, delegate() { ExecuteDialogue(Convert.ToInt32(selectedDialogue)); }, PrintMainMenu);
+        ValidateRule(selectedDialogue!, rule, delegate() { ExecuteDialogue(Convert.ToInt32(selectedDialogue)); }, PrintMainMenu);
     }
 
     private static void ExecuteDialogue(int dialogueIndex)

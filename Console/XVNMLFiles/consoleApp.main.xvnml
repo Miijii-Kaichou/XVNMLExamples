@@ -47,6 +47,7 @@
         <dialogue name::"Osaka's Dream" src::"Test/test1.dialogue.xvnml"/>
         
         <macroCache name::"_main"       src::"main.macro.cache.xvnml"   pathMode::Relative/>
+        <macroCache name::"_koko"       src::"koko.macro.cache.xvnml"   pathMode::Relative/>
         <macroCache name::"_test0"      src::"test0.macro.cache.xvnml"  pathMode::Relative/>
         <macroCache name::"_test1"      src::"test1.macro.cache.xvnml"  pathMode::Relative/>
 </proxy>

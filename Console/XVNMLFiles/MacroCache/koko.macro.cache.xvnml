@@ -1,0 +1,9 @@
+<source name::"Koko.Macro.Cache.XVNML">
+    <macroCache name::"_koko" rootScope::"Koko.Dialogue.XVNML">
+        <macro name::"_start">
+            <macro          symbol::"start"/>
+            <macro arg::100 symbol::"sts" />
+            <macro          symbol::"pass"/>
+        </macro>
+    </macroCache>
+</source>
